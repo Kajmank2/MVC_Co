@@ -103,3 +103,11 @@ C:\Users\Len\Desktop\MVC_Co\WebKUR\bin\Microsoft.CodeDom.Providers.DotNetCompile
 C:\Users\Len\Desktop\MVC_Co\WebKUR\obj\Debug\WebKUR.csproj.CopyComplete
 C:\Users\Len\Desktop\MVC_Co\WebKUR\obj\Debug\WebKUR.dll
 C:\Users\Len\Desktop\MVC_Co\WebKUR\obj\Debug\WebKUR.pdb
+C:\Users\Len\Desktop\MVC_Co\WebKUR\obj\Debug\WebKUR.Migrations.InitialModel.resources
+C:\Users\Len\Desktop\MVC_Co\WebKUR\obj\Debug\WebKUR.csproj.GenerateResource.cache
+C:\Users\Len\Desktop\MVC_Co\WebKUR\obj\Debug\WebKUR.Migrations.addIsSubscribedtonewsletter.resources
+C:\Users\Len\Desktop\MVC_Co\WebKUR\obj\Debug\WebKUR.Migrations.addMembershipType.resources
+C:\Users\Len\Desktop\MVC_Co\WebKUR\obj\Debug\WebKUR.Migrations.PopulateMembershipTypes.resources
+C:\Users\Len\Desktop\MVC_Co\WebKUR\obj\Debug\WebKUR.Migrations.InitalModelFroce.resources
+C:\Users\Len\Desktop\MVC_Co\WebKUR\obj\Debug\WebKUR.Migrations.addMembertype.resources
+C:\Users\Len\Desktop\MVC_Co\WebKUR\obj\Debug\WebKUR.Migrations.dodanieAnnonusDOName.resources
