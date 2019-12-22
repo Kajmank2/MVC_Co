@@ -169,9 +169,15 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\CustomerController.cs" />
+    <Compile Include="Migrations\201912221157291_DeleteRequired.cs" />
+    <Compile Include="Migrations\201912221157291_DeleteRequired.Designer.cs">
+      <DependentUpon>201912221157291_DeleteRequired.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\CustomerFormViewModel.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MovieController.cs" />
+    <Compile Include="ViewModels\MovieFormViewModel.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -203,9 +209,30 @@
     <Compile Include="Migrations\201912192337303_dodanieAnnonusDOName.Designer.cs">
       <DependentUpon>201912192337303_dodanieAnnonusDOName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201912211840331_AddbirthrdayToCoustomer.cs" />
+    <Compile Include="Migrations\201912211840331_AddbirthrdayToCoustomer.Designer.cs">
+      <DependentUpon>201912211840331_AddbirthrdayToCoustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912211848486_AddGenre.cs" />
+    <Compile Include="Migrations\201912211848486_AddGenre.Designer.cs">
+      <DependentUpon>201912211848486_AddGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912211849394_DataforGenre.cs" />
+    <Compile Include="Migrations\201912211849394_DataforGenre.Designer.cs">
+      <DependentUpon>201912211849394_DataforGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912211928109_GenreMovie.cs" />
+    <Compile Include="Migrations\201912211928109_GenreMovie.Designer.cs">
+      <DependentUpon>201912211928109_GenreMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912212000013_Genre.cs" />
+    <Compile Include="Migrations\201912212000013_Genre.Designer.cs">
+      <DependentUpon>201912212000013_Genre.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -274,6 +301,10 @@
     <Content Include="Views\Movie\Index.cshtml" />
     <Content Include="Views\Movie\Random.cshtml" />
     <Content Include="Views\Customer\Details.cshtml" />
+    <Content Include="Views\Customer\CustomerForm.cshtml" />
+    <Content Include="Views\Movie\Details.cshtml" />
+    <Content Include="Views\Movie\MovieForm.cshtml" />
+    <Content Include="Views\Movie\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -312,6 +343,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201912192337303_dodanieAnnonusDOName.resx">
       <DependentUpon>201912192337303_dodanieAnnonusDOName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912211840331_AddbirthrdayToCoustomer.resx">
+      <DependentUpon>201912211840331_AddbirthrdayToCoustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912211848486_AddGenre.resx">
+      <DependentUpon>201912211848486_AddGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912211849394_DataforGenre.resx">
+      <DependentUpon>201912211849394_DataforGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912211928109_GenreMovie.resx">
+      <DependentUpon>201912211928109_GenreMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912212000013_Genre.resx">
+      <DependentUpon>201912212000013_Genre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912221157291_DeleteRequired.resx">
+      <DependentUpon>201912221157291_DeleteRequired.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

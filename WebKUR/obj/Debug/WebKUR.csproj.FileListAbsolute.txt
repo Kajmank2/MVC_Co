@@ -111,3 +111,9 @@ C:\Users\Len\Desktop\MVC_Co\WebKUR\obj\Debug\WebKUR.Migrations.PopulateMembershi
 C:\Users\Len\Desktop\MVC_Co\WebKUR\obj\Debug\WebKUR.Migrations.InitalModelFroce.resources
 C:\Users\Len\Desktop\MVC_Co\WebKUR\obj\Debug\WebKUR.Migrations.addMembertype.resources
 C:\Users\Len\Desktop\MVC_Co\WebKUR\obj\Debug\WebKUR.Migrations.dodanieAnnonusDOName.resources
+C:\Users\Len\Desktop\MVC_Co\WebKUR\obj\Debug\WebKUR.Migrations.AddbirthrdayToCoustomer.resources
+C:\Users\Len\Desktop\MVC_Co\WebKUR\obj\Debug\WebKUR.Migrations.AddGenre.resources
+C:\Users\Len\Desktop\MVC_Co\WebKUR\obj\Debug\WebKUR.Migrations.DataforGenre.resources
+C:\Users\Len\Desktop\MVC_Co\WebKUR\obj\Debug\WebKUR.Migrations.GenreMovie.resources
+C:\Users\Len\Desktop\MVC_Co\WebKUR\obj\Debug\WebKUR.Migrations.Genre.resources
+C:\Users\Len\Desktop\MVC_Co\WebKUR\obj\Debug\WebKUR.Migrations.DeleteRequired.resources

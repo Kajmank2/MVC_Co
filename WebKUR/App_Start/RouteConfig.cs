@@ -18,6 +18,12 @@ namespace WebKUR
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
+            routes.MapRoute(
+                name: "NewControllerRoute",
+                url: "NewControllerName/{action}/{id}",
+                defaults: new { controller = "NewController", action = "Index", id = UrlParameter.Optional }
+            );
         }
+
     }
 }
