@@ -117,3 +117,4 @@ C:\Users\Len\Desktop\MVC_Co\WebKUR\obj\Debug\WebKUR.Migrations.DataforGenre.reso
 C:\Users\Len\Desktop\MVC_Co\WebKUR\obj\Debug\WebKUR.Migrations.GenreMovie.resources
 C:\Users\Len\Desktop\MVC_Co\WebKUR\obj\Debug\WebKUR.Migrations.Genre.resources
 C:\Users\Len\Desktop\MVC_Co\WebKUR\obj\Debug\WebKUR.Migrations.DeleteRequired.resources
+C:\Users\Len\Desktop\MVC_Co\WebKUR\obj\Debug\WebKUR.Migrations.AddDataAnnotation.resources

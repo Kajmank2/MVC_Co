@@ -7,6 +7,7 @@
 }
 
 <h2>Customers</h2>
+@Html.ActionLink("New Customer", "New", "Customer", null, new { @class = "btn btn-primary" })
 @if (!Model.Any())
 {
     <p>We don't have any customers yet.</p>
@@ -26,6 +27,11 @@ else
                 <tr>
                     <td>@Html.ActionLink(customer.Name, "Edit", "Customer", new { id = customer.Id }, null)</td>
                     <td>@customer.MembershipType.Name</td>
+                    <td>
+                        <button type="submit" class="btn btn-warning">
+                            @Html.ActionLink("Usun", "Delete", "Customer", new { id = customer.Id }, null)
+                        </button>
+                    </td>
                 </tr>
             }
         </tbody>

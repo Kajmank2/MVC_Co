@@ -34,6 +34,27 @@ namespace WebKUR.Controllers
 
             return View("CustomerForm", viewModel);
         }
+        public ActionResult Delete(int? id)
+        {
+
+            var customer = _context.Customers.Find(id);
+            if (customer == null)
+            {
+                return HttpNotFound();
+            }
+            return View(customer);
+        }
+
+        // POST: /Movies/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public ActionResult DeleteConfirmed(int id)
+        {
+            var customer = _context.Customers.Find(id);
+            _context.Customers.Remove(customer);
+            _context.SaveChanges();
+            return RedirectToAction("Index", "Customer");
+        }
 
         [HttpPost]
         [ValidateAntiForgeryToken]

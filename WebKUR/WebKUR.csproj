@@ -173,6 +173,11 @@
     <Compile Include="Migrations\201912221157291_DeleteRequired.Designer.cs">
       <DependentUpon>201912221157291_DeleteRequired.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201912221657216_AddDataAnnotation.cs" />
+    <Compile Include="Migrations\201912221657216_AddDataAnnotation.Designer.cs">
+      <DependentUpon>201912221657216_AddDataAnnotation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Min18YearIsAMember.cs" />
     <Compile Include="ViewModels\CustomerFormViewModel.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -305,6 +310,7 @@
     <Content Include="Views\Movie\Details.cshtml" />
     <Content Include="Views\Movie\MovieForm.cshtml" />
     <Content Include="Views\Movie\Delete.cshtml" />
+    <Content Include="Views\Customer\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -361,6 +367,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201912221157291_DeleteRequired.resx">
       <DependentUpon>201912221157291_DeleteRequired.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912221657216_AddDataAnnotation.resx">
+      <DependentUpon>201912221657216_AddDataAnnotation.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
