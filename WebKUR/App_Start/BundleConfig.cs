@@ -26,5 +26,6 @@ namespace WebKUR
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
         }
+
     }
 }

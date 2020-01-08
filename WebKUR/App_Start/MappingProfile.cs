@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using WebKUR.Dtos;
+using WebKUR.Models;
 
 namespace WebKUR.App_Start
 {
@@ -11,7 +12,15 @@ namespace WebKUR.App_Start
     {
         public MappingProfile()
         {
-            Mapper.CreateMap<Custome, CustomerDto>();
+            Mapper.CreateMap<Customer, CustomerDto>();
+            Mapper.CreateMap<Movie, MovieDto>();
+
+
+            Mapper.CreateMap<CustomerDto, Customer>()
+    .ForMember(c => c.Id, opt => opt.Ignore());
+
+            Mapper.CreateMap<MovieDto, Movie>()
+                .ForMember(c => c.Id, opt => opt.Ignore());
         }
     }
 }
