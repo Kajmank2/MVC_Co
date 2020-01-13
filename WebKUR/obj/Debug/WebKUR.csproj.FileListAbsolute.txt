@@ -126,3 +126,5 @@ C:\Users\Len\Desktop\MVC_Co\WebKUR\bin\System.Web.Http.xml
 C:\Users\Len\Desktop\MVC_Co\WebKUR\bin\System.Web.Http.WebHost.xml
 C:\Users\Len\Desktop\MVC_Co\WebKUR\bin\AutoMapper.dll
 C:\Users\Len\Desktop\MVC_Co\WebKUR\bin\AutoMapper.xml
+C:\Users\Len\Desktop\MVC_Co\WebKUR\bin\CsQuery.dll
+C:\Users\Len\Desktop\MVC_Co\WebKUR\bin\CsQuery.xml
