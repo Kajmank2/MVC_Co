@@ -25,5 +25,6 @@ namespace WebKUR.Models
         [Range(1,20)]
 
         public byte NumberInStock { get; set; }
+        public byte NumberAvaliable { get; set; }
     }
 }

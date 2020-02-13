@@ -7,23 +7,23 @@
 }
 
 <h2>Customers</h2>
-    <table id="customers" class="table table-bordered table-hover">
-        <thead>
-            <tr>
-                <th>Customer</th>
-                <th>Membership Type</th>
-                <th>DeletAJAX</th>
-            </tr>
-        </thead>
-        <tbody>
-        </tbody>
-    </table>
+@Html.ActionLink("New Customer", "New", "Customer", null, new { @class = "btn btn-primary" })
+<table id="customers" class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Customer</th>
+            <th>Membership Type</th>
+            <th>DeletAJAX</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
 
 @section scripts
 {
     <script>
         $(document).ready(function () {
-            $("#customers").DataTable({
+            var table =   $("#customers").DataTable({
                 ajax: {
                     url: "api/customer",
                     dataSrc: ""
@@ -32,11 +32,11 @@
                     {
                         data: "name",
                         render: function (data, type, customer) {
-                            return "<a href='/custmer/edit/" + customer.id + "'>" + data.name + "</a>";
+                            return "<a href='/customer/edit/" + customer.id + "'>" + customer.name + "</a>";
                         }
                     },
                     {
-                        data:"name"
+                        data: "membershipType.name"
                     },
                     {
                         data: "id",
@@ -55,7 +55,7 @@
                             url: "/api/customer/" + button.attr("data-customer-id"),
                             method: "DELETE",
                             success: function () {
-                                button.parents("tr").remove();
+                                table.row(button.parents("tr")).remove().draw();
                             }
                         });
                     }

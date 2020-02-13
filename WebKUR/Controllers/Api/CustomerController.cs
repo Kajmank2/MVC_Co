@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Data.Entity;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
@@ -18,9 +19,18 @@ namespace WebKUR.Controllers.Api
             _context = new ApplicationDbContext();
         }
         // GET: api/Customer
-        public IEnumerable<CustomerDto> GetCustomer()
+        public IHttpActionResult GetCustomer(string query = null)
         {
-            return _context.Customers.ToList().Select(Mapper.Map<Customer, CustomerDto>);
+            var customerQuery = _context.Customers.Include(c => c.MembershipType);
+
+            if (!String.IsNullOrWhiteSpace(query))
+            {
+                customerQuery = customerQuery.Where(c => c.Name.Contains(query));
+            }
+            var customerDtos = customerQuery
+                .ToList()
+                .Select(Mapper.Map<Customer, CustomerDto>);
+            return Ok(customerDtos);
         }
 
         // GET: api/Customer/5

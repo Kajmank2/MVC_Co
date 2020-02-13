@@ -25,11 +25,20 @@ namespace WebKUR.Controllers
         }
         public ViewResult Index()
         {
-            var movies = _context.Movies.Include(m => m.Genre).ToList();
-
-            return View(movies);
+            // var movies = _context.Movies.Include(m => m.Genre).ToList();
+            //if (User.IsInRole(RoleName.CanManageMovie))
+            //{
+            //    return View("Index",movies);
+            //}else
+            // var movies = _context.Movies.Include(m => m.Genre).ToList();
+            //if (User.IsInRole(RoleName.CanManageMovie))
+            //{
+            //    return View("Index",movies);
+            //}else
+            //return View("Index");
+            return View();
         }
-
+      //  [Authorize(Roles =RoleName.CanManageMovie )]
         public ViewResult New()
         {
             var genres = _context.Genres.ToList();

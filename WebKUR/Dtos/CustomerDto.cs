@@ -15,6 +15,7 @@ namespace WebKUR.Dtos
         public string Name { get; set; }
         public bool IsSubscribedToNewsletter { get; set; }
         [Display(Name = "Membership Type")]
+        public MembershipTypeDto MembershipType { get; set; }
         public byte MembershipTypeId { get; set; }
         [Min18YearIsAMember]
         public DateTime? Birthdate { get; set; }

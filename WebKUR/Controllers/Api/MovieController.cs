@@ -7,6 +7,7 @@ using System.Net.Http;
 using System.Web.Http;
 using WebKUR.Dtos;
 using WebKUR.Models;
+using System.Data.Entity;
 
 namespace WebKUR.Controllers.Api
 {
@@ -18,9 +19,20 @@ namespace WebKUR.Controllers.Api
             _context = new ApplicationDbContext();
         }
         // GET: api/Movie
-        public IEnumerable<MovieDto> GetMovie()
+        public IEnumerable<MovieDto> GetMovie(string query = null)
         {
-            return _context.Movies.ToList().Select(Mapper.Map<Movie, MovieDto>);
+            var moviesQuery = _context.Movies
+                .Include(m => m.Genre)
+                .Where(m => m.NumberAvaliable > 0);
+
+            if (!String.IsNullOrWhiteSpace(query))
+            {
+                moviesQuery = moviesQuery.Where(c => c.Name.Contains(query));
+            }
+       
+                return moviesQuery
+                 .ToList()
+                 .Select(Mapper.Map<Movie, MovieDto>);
         }
 
         // GET: api/Movie/5

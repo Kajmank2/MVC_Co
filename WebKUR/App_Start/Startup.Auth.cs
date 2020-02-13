@@ -54,9 +54,9 @@ namespace WebKUR
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "651861758886887",
+               appSecret: "084dacb6a86e1b0261f112e5e4cb2a25");
 
             //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             //{

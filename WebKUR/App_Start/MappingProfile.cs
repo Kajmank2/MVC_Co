@@ -14,6 +14,9 @@ namespace WebKUR.App_Start
         {
             Mapper.CreateMap<Customer, CustomerDto>();
             Mapper.CreateMap<Movie, MovieDto>();
+            Mapper.CreateMap<MembershipType, MembershipTypeDto>();
+            Mapper.CreateMap<Genre, GenreDto>();
+            Mapper.CreateMap<Rental, NewRentalDto>();
 
 
             Mapper.CreateMap<CustomerDto, Customer>()

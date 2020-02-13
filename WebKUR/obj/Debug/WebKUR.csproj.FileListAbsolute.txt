@@ -1,5 +1,4 @@
 C:\Users\Len\Desktop\MVC_Co\WebKUR\obj\Debug\WebKUR.csprojAssemblyReference.cache
-C:\Users\Len\Desktop\MVC_Co\WebKUR\obj\Debug\WebKUR.csproj.CoreCompileInputs.cache
 C:\Users\Len\Desktop\MVC_Co\WebKUR\bin\WebKUR.dll.config
 C:\Users\Len\Desktop\MVC_Co\WebKUR\bin\WebKUR.dll
 C:\Users\Len\Desktop\MVC_Co\WebKUR\bin\WebKUR.pdb
@@ -128,3 +127,18 @@ C:\Users\Len\Desktop\MVC_Co\WebKUR\bin\AutoMapper.dll
 C:\Users\Len\Desktop\MVC_Co\WebKUR\bin\AutoMapper.xml
 C:\Users\Len\Desktop\MVC_Co\WebKUR\bin\CsQuery.dll
 C:\Users\Len\Desktop\MVC_Co\WebKUR\bin\CsQuery.xml
+C:\Users\Len\Desktop\MVC_Co\WebKUR\obj\Debug\WebKUR.Migrations.SeedUsers.resources
+C:\Users\Len\Desktop\MVC_Co\WebKUR\obj\Debug\WebKUR.Migrations.AddDrivingLicense.resources
+C:\Users\Len\Desktop\MVC_Co\WebKUR\obj\Debug\WebKUR.Migrations.AddRentalsModel.resources
+C:\Users\Len\Desktop\MVC_Co\WebKUR\obj\Debug\WebKUR.Migrations.AddRentalsModel2.resources
+C:\Users\Len\Desktop\MVC_Co\WebKUR\obj\Debug\WebKUR.Migrations.NumerAvaliable.resources
+C:\Users\Len\Desktop\MVC_Co\WebKUR\bin\System.Buffers.dll
+C:\Users\Len\Desktop\MVC_Co\WebKUR\bin\System.Memory.dll
+C:\Users\Len\Desktop\MVC_Co\WebKUR\bin\System.Numerics.Vectors.dll
+C:\Users\Len\Desktop\MVC_Co\WebKUR\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Len\Desktop\MVC_Co\WebKUR\bin\System.Text.Encodings.Web.dll
+C:\Users\Len\Desktop\MVC_Co\WebKUR\bin\System.Buffers.xml
+C:\Users\Len\Desktop\MVC_Co\WebKUR\bin\System.Memory.xml
+C:\Users\Len\Desktop\MVC_Co\WebKUR\bin\System.Numerics.Vectors.xml
+C:\Users\Len\Desktop\MVC_Co\WebKUR\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Len\Desktop\MVC_Co\WebKUR\bin\System.Text.Encodings.Web.xml

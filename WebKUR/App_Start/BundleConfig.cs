@@ -1,5 +1,4 @@
-﻿using System.Web;
-using System.Web.Optimization;
+﻿using System.Web.Optimization;
 
 namespace WebKUR
 {
@@ -14,8 +13,9 @@ namespace WebKUR
                       "~/Scripts/bootbox.js",
                       "~/Scripts/respond.js",
                       "~/Scripts/datatables/jquery.datatables.js",
-                      "~/Scripts/jquery.color-2.1.2.js",
-                      "~/scripts/datatables/datatables.boostrap.js"
+                      "~/Scripts/jquery.color-2.1.2.js",                   
+                      "~/scripts/datatables/datatables.boostrap.js",
+                      "~/scripts/typeahead.bundle.js"
                      
                       ));
 
@@ -29,6 +29,8 @@ namespace WebKUR
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
+                      "~/content/boostrap-lumen.css",
+                        "~/content/typeahead.css",
                        "~/content/datatables/css/datatables.bootstrap.css",
                       "~/Content/site.css"));
 
