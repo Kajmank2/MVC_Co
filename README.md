@@ -1,0 +1,3 @@
+# MVC_Co
+BasicApp(MOVIES,CUSTOMERS)
+Simple app from Course...
